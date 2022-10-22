@@ -1,0 +1,111 @@
+/* Write your code here. */
+
+@media screen and (min-width: 990px) {
+  .bgContainer {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 350px;
+  }
+  .heading {
+    margin: 50px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Roboto;
+  }
+  .description {
+    color: #e4e7eb;
+    margin: 50px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  .searchBar {
+    margin: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    border-color: #e4e7eb;
+    border-style: solid;
+    background-color: transparent;
+    border-width: 1px;
+    width: 300px;
+    border-radius: 7px;
+    display: block;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+  }
+  .container1 {
+    order: 1;
+  }
+  .container2 {
+    order: 2;
+  }
+}
+@media screen and (max-width: 990px) {
+  .bgContainer {
+    background-image: linear-gradient(to right, #1d976c, #93f9b9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    height: 200px;
+  }
+  .heading {
+    margin: 10px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-family: Roboto;
+  }
+  .description {
+    color: #e4e7eb;
+    margin: 10px;
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  .searchBar {
+    margin: 10px;
+    margin-top: 0px;
+    padding: 7px;
+    border-color: #e4e7eb;
+    border-style: solid;
+    background-color: transparent;
+    border-width: 1px;
+    width: 200px;
+    border-radius: 7px;
+    display: block;
+    font-weight: bold;
+    border-color: white;
+    color: white;
+  }
+  .container1 {
+    order: 2;
+  }
+  .container2 {
+    order: 1;
+    align-items: center;
+  }
+}
+
+.btn {
+  background-color: #ffffff;
+  padding: 15px;
+  border-width: 0px;
+  border-radius: 7px;
+  margin: 50px;
+  margin-top: 0px;
+  font-size: 20px;
+  color: #1d976c;
+  font-weight: bold;
+}
